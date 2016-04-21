@@ -1,11 +1,15 @@
 # vimrc
 My vim settings.
 
-##How to use
+## Requirement
+1. Vundle
+2. YouCompleteMe
+
+## How to use
 
 1. clone
 2. set symlink to .vimrc
 
-##Reference
+## Reference
 [A Good Vimrc](http://dougblack.io/words/a-good-vimrc.html) By Dougblack.
 

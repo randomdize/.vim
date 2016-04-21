@@ -48,5 +48,5 @@ nnoremap gV `[v`]
 let mapleader=","
 inoremap jk <esc>
 nnoremap <leader>s :mksession<CR>
-
+set mouse=a
 autocmd Filetype ruby setlocal ts=2 sw=2 expandtab

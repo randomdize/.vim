@@ -1,27 +1,10 @@
-set nocompatible              " be iMproved, required
-filetype off                  " required
-
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-
-" Plugin
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'vim-ruby/vim-ruby'
-Plugin 'scrooloose/nerdtree'
-Plugin 'pangloss/vim-javascript'
-Plugin 'ervandew/supertab'
-Plugin 'Valloric/YouCompleteMe'
-Plugin 'rdnetto/YCM-Generator'
-
-" Bundle
-Bundle "marijnh/tern_for_vim"
-
-call vundle#end()            " required
-filetype plugin indent on    " required
+" Vim-plug
+" Specify a directory for plugins (for Neovim: ~/.local/share/nvim/plugged)
+call plug#begin('~/.vim/plugged')
+Plug 'scrooloose/nerdtree'
+call plug#end()
 
 " Put your non-Plugin stuff after this line
-let g:ycm_global_ycm_extra_conf = "~/.vim/.ycm_extra_conf.py"
 set backspace=indent,eol,start
 syntax enable
 set tabstop=4
@@ -49,4 +32,3 @@ let mapleader=","
 inoremap jk <esc>
 nnoremap <leader>s :mksession<CR>
 set mouse=a
-autocmd Filetype ruby setlocal ts=2 sw=2 expandtab

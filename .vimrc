@@ -32,3 +32,4 @@ let mapleader=","
 inoremap jk <esc>
 nnoremap <leader>s :mksession<CR>
 set mouse=a
+map <C-n> :NERDTreeToggle<CR>

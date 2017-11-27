@@ -2,7 +2,7 @@
 My vim settings.
 
 ## Requirement
-1. [Vim-Plug](https://github.com/junegunn/vim-plug) 
+~~1. [Vim-Plug](https://github.com/junegunn/vim-plug)~~ 
 
 ## How to use
 

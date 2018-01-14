@@ -42,5 +42,6 @@ let g:netrw_liststyle = 3
 let g:netrw_browse_split = 4
 let g:netrw_altv = 1
 " Filetype 
+filetype plugin indent on
 autocmd Filetype html setlocal tabstop=2 shiftwidth=2 softtabstop=2 expandtab
 autocmd Filetype python setlocal tabstop=2 shiftwidth=2 softtabstop=2 expandtab
